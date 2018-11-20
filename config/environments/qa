@@ -1,0 +1,13 @@
+####################################################################################################
+# Create a file with this same filename plus `.local` appended to the end.
+# Then add the following secret environment variables to it.
+# These must never be checked in to version control (i.e. don't commit to git or push to GitHub).
+####################################################################################################
+# GOOGLE_URL=''
+# OCTANNER_URL=''
+
+####################################################################################################
+# Test URLs
+####################################################################################################
+GOOGLE_URL=''
+OCTANNER_URL=''

@@ -1,0 +1,7 @@
+There are two simple assignments that you will need to complete:
+
+1. Create a single script that will click each menu item on the O.C. Tanner site and validate that you land on the proper page.
+
+2. Create a script that does a google search for Muramasa.  Finds the wikipedia result and clicks it. Then from the wikipedia page capture his birthdate into a variable and print Muramasa's birthday to the console.
+
+*Make sure to complete these assignments in one branch and push that branch up to origin when completed. If not completed make sure to push the branch before the deadline given.

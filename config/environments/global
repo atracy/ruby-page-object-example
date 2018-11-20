@@ -1,0 +1,14 @@
+####################################################################################################
+# Create a file with this same filename plus `.local` appended to the end.
+# Then add the following secret environment variables to it.
+# These must never be checked in to version control (i.e. don't commit to git or push to GitHub).
+####################################################################################################
+# SAUCE_USERNAME=''
+# SAUCE_ACCESS_KEY=''
+# APPLITOOLS_ACCESS_KEY=''
+# MAILINATOR_TOKEN=''
+# GUNTER_PASSWORD=''
+
+####################################################################################################
+# Add any non-secret environment variables below.
+####################################################################################################

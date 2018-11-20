@@ -1,0 +1,6 @@
+FROM quay.octanner.io/base/oct-ruby:2.5.0-1.0
+
+WORKDIR /ludus
+COPY Gemfile Gemfile.lock ./
+RUN bundle install \
+    && rm Gemfile Gemfile.lock

@@ -1,0 +1,5 @@
+--format ParallelTests::RSpec::RuntimeLogger
+--out tmp/parallel_runtime_rspec.log
+
+--format RspecJunitFormatter
+--out tmp/gunter/<%= ENV['TASK_ID'] %>/<%= 'result' + ENV['TEST_ENV_NUMBER'] %>.xml

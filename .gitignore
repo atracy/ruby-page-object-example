@@ -1,0 +1,37 @@
+*.gem
+*.rbc
+*.idea/
+*.iml
+.bundle
+.config
+logger.log
+rspec.xml
+sauce_connect.log
+*.png
+coverage
+InstalledFiles
+lib/bundler/man
+pkg
+rdoc
+spec/reports
+test/tmp
+test/version_tmp
+tmp
+milestones/results
+.DS_Store
+spec/.DS_Store
+spec/helpers/.DS_Store
+
+# YARD artifacts
+.yardoc
+_yardoc
+doc/
+milestones/logger.log
+
+# .env local files
+*.local
+!Dockerfile.local
+
+# Files created by ctags for indexing purposes
+.tags*
+tags
