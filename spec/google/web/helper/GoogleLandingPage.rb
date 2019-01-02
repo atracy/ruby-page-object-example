@@ -3,7 +3,7 @@ class GoogleLandingPage
   include RSpec::Matchers
 
   def enter_search_text(search_text)
-    page.fill_in 'lst-ib', with: search_text
+    page.find("input[name='q']").set search_text
   end
 
   def click_search

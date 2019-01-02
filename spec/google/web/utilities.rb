@@ -18,11 +18,11 @@ class Utilities
   def metadata(file_path, client_type = nil)
     path = file_path.split('/')
     metadata = path[(path.index('features') + 1)..-1]
-               .push(client_type)
-               .compact
-               .map(&:capitalize)
-               .join(' - ')
-               .chomp('.rb')
+              .push(client_type)
+              .compact
+              .map(&:capitalize)
+              .join(' - ')
+              .chomp('.rb')
     sauce_metadata = " - #{ENV['platform']} - #{ENV['browserName']} #{ENV['version']}"
     sauce ? metadata << sauce_metadata : metadata
   end

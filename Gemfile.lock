@@ -58,6 +58,7 @@ GEM
     faraday (0.12.2)
       multipart-post (>= 1.2, < 3)
     ffi (1.9.25)
+    ffi (1.9.25-x86-mingw32)
     hashie (3.5.7)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
@@ -89,11 +90,14 @@ GEM
     mini_portile2 (2.3.0)
     minitest (5.11.3)
     msgpack (1.2.4)
+    msgpack (1.2.4-x86-mingw32)
     multi_json (1.13.1)
     multi_xml (0.6.0)
     multipart-post (2.0.0)
     netrc (0.11.0)
     nokogiri (1.8.4)
+      mini_portile2 (~> 2.3.0)
+    nokogiri (1.8.4-x86-mingw32)
       mini_portile2 (~> 2.3.0)
     oauth2 (1.4.0)
       faraday (>= 0.8, < 0.13)
@@ -132,6 +136,11 @@ GEM
       rainbow (>= 2.0, < 4.0)
     require_all (2.0.0)
     rest-client (2.0.2)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
+    rest-client (2.0.2-x86-mingw32)
+      ffi (~> 1.9)
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
       netrc (~> 0.8)
@@ -184,6 +193,7 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.5)
+    unf_ext (0.0.7.5-x86-mingw32)
     unicode-display_width (1.4.0)
     virtus (1.0.5)
       axiom-types (~> 0.1)
@@ -197,6 +207,7 @@ GEM
 
 PLATFORMS
   ruby
+  x86-mingw32
 
 DEPENDENCIES
   capybara
@@ -225,4 +236,4 @@ DEPENDENCIES
   simple-secrets
 
 BUNDLED WITH
-   1.16.3
+   1.17.2
