@@ -1,9 +1,9 @@
 require 'spec_helper'
 google = Google.new
 
-feature 'Search Muramasa', type: :acceptance, sauce: ENV['USESAUCE'] do
+feature 'Search Muramasa', type: :acceptance, broken: true, sauce: ENV['USESAUCE'] do
   before do
-    visit(octanner.utilities.url('google'))
+    visit(blah.utilities.url('google'))
   end
 
   scenario 'Search' do

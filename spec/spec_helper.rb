@@ -17,10 +17,7 @@ require 'pry-byebug'
 require 'faker'
 require 'google/web/utilities'
 require 'google/web/google'
-require 'octanner/web/utilities'
-require 'octanner/web/octanner'
 require_rel '/google/web/helper/'
-require_rel '/octanner/web/helper/'
 Dir[File.dirname(__FILE__) + '/support/**/*.rb'].each { |f| require f }
 
 usesauce = ENV.fetch('USESAUCE', false)

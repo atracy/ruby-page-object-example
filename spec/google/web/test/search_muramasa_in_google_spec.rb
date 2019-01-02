@@ -6,7 +6,7 @@ feature 'Search Muramasa', type: :acceptance, sauce: ENV['USESAUCE'] do
     visit(google.url('google'))
   end
 
-  scenario 'Landing_Page' do
+  scenario 'Search for Muramasa' do
     google.landing_page.enter_search_text 'Muramasa'
     google.landing_page.click_search
   end
